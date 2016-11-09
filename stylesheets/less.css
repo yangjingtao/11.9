@@ -1,0 +1,772 @@
+* {
+  box-sizing: border-box;
+}
+/*小屏的时候*/
+.container {
+  width: 600px;
+  margin: auto;
+}
+.container > .row {
+  width: 100%;
+}
+.container > .row:before,
+.container > .row:after {
+  content: "";
+  display: block;
+}
+.container > .row:after {
+  clear: both;
+}
+.container-fluid {
+  width: 100%;
+  margin: auto;
+}
+.container-fluid > .row {
+  width: 100%;
+}
+.container-fluid > .row:before,
+.container-fluid > .row:after {
+  content: "";
+  display: block;
+}
+.container-fluid > .row:after {
+  clear: both;
+}
+/*最小屏*/
+.container > .row > .col-s-1 {
+  float: left;
+  width: 5%;
+}
+.container-fluid > .row > .col-s-1 {
+  float: left;
+  width: 5%;
+}
+.container > .row > .col-s-2 {
+  float: left;
+  width: 10%;
+}
+.container-fluid > .row > .col-s-2 {
+  float: left;
+  width: 10%;
+}
+.container > .row > .col-s-3 {
+  float: left;
+  width: 15%;
+}
+.container-fluid > .row > .col-s-3 {
+  float: left;
+  width: 15%;
+}
+.container > .row > .col-s-4 {
+  float: left;
+  width: 20%;
+}
+.container-fluid > .row > .col-s-4 {
+  float: left;
+  width: 20%;
+}
+.container > .row > .col-s-5 {
+  float: left;
+  width: 25%;
+}
+.container-fluid > .row > .col-s-5 {
+  float: left;
+  width: 25%;
+}
+.container > .row > .col-s-6 {
+  float: left;
+  width: 30%;
+}
+.container-fluid > .row > .col-s-6 {
+  float: left;
+  width: 30%;
+}
+.container > .row > .col-s-7 {
+  float: left;
+  width: 35%;
+}
+.container-fluid > .row > .col-s-7 {
+  float: left;
+  width: 35%;
+}
+.container > .row > .col-s-8 {
+  float: left;
+  width: 40%;
+}
+.container-fluid > .row > .col-s-8 {
+  float: left;
+  width: 40%;
+}
+.container > .row > .col-s-9 {
+  float: left;
+  width: 45%;
+}
+.container-fluid > .row > .col-s-9 {
+  float: left;
+  width: 45%;
+}
+.container > .row > .col-s-10 {
+  float: left;
+  width: 50%;
+}
+.container-fluid > .row > .col-s-10 {
+  float: left;
+  width: 50%;
+}
+.container > .row > .col-s-11 {
+  float: left;
+  width: 55%;
+}
+.container-fluid > .row > .col-s-11 {
+  float: left;
+  width: 55%;
+}
+.container > .row > .col-s-12 {
+  float: left;
+  width: 60%;
+}
+.container-fluid > .row > .col-s-12 {
+  float: left;
+  width: 60%;
+}
+.container > .row > .col-s-13 {
+  float: left;
+  width: 65%;
+}
+.container-fluid > .row > .col-s-13 {
+  float: left;
+  width: 65%;
+}
+.container > .row > .col-s-14 {
+  float: left;
+  width: 70%;
+}
+.container-fluid > .row > .col-s-14 {
+  float: left;
+  width: 70%;
+}
+.container > .row > .col-s-15 {
+  float: left;
+  width: 75%;
+}
+.container-fluid > .row > .col-s-15 {
+  float: left;
+  width: 75%;
+}
+.container > .row > .col-s-16 {
+  float: left;
+  width: 80%;
+}
+.container-fluid > .row > .col-s-16 {
+  float: left;
+  width: 80%;
+}
+.container > .row > .col-s-17 {
+  float: left;
+  width: 85%;
+}
+.container-fluid > .row > .col-s-17 {
+  float: left;
+  width: 85%;
+}
+.container > .row > .col-s-18 {
+  float: left;
+  width: 90%;
+}
+.container-fluid > .row > .col-s-18 {
+  float: left;
+  width: 90%;
+}
+.container > .row > .col-s-19 {
+  float: left;
+  width: 95%;
+}
+.container-fluid > .row > .col-s-19 {
+  float: left;
+  width: 95%;
+}
+.container > .row > .col-s-20 {
+  float: left;
+  width: 100%;
+}
+.container-fluid > .row > .col-s-20 {
+  float: left;
+  width: 100%;
+}
+.col-s-hide {
+  display: none;
+}
+/*中屏*/
+@media screen and (min-width: 800px) {
+  .container {
+    width: 800px;
+    margin: auto;
+  }
+  .container > .row > .col-m-1 {
+    float: left;
+    width: 5%;
+  }
+  .container-fluid > .row > .col-m-1 {
+    float: left;
+    width: 5%;
+  }
+  .container > .row > .col-m-2 {
+    float: left;
+    width: 10%;
+  }
+  .container-fluid > .row > .col-m-2 {
+    float: left;
+    width: 10%;
+  }
+  .container > .row > .col-m-3 {
+    float: left;
+    width: 15%;
+  }
+  .container-fluid > .row > .col-m-3 {
+    float: left;
+    width: 15%;
+  }
+  .container > .row > .col-m-4 {
+    float: left;
+    width: 20%;
+  }
+  .container-fluid > .row > .col-m-4 {
+    float: left;
+    width: 20%;
+  }
+  .container > .row > .col-m-5 {
+    float: left;
+    width: 25%;
+  }
+  .container-fluid > .row > .col-m-5 {
+    float: left;
+    width: 25%;
+  }
+  .container > .row > .col-m-6 {
+    float: left;
+    width: 30%;
+  }
+  .container-fluid > .row > .col-m-6 {
+    float: left;
+    width: 30%;
+  }
+  .container > .row > .col-m-7 {
+    float: left;
+    width: 35%;
+  }
+  .container-fluid > .row > .col-m-7 {
+    float: left;
+    width: 35%;
+  }
+  .container > .row > .col-m-8 {
+    float: left;
+    width: 40%;
+  }
+  .container-fluid > .row > .col-m-8 {
+    float: left;
+    width: 40%;
+  }
+  .container > .row > .col-m-9 {
+    float: left;
+    width: 45%;
+  }
+  .container-fluid > .row > .col-m-9 {
+    float: left;
+    width: 45%;
+  }
+  .container > .row > .col-m-10 {
+    float: left;
+    width: 50%;
+  }
+  .container-fluid > .row > .col-m-10 {
+    float: left;
+    width: 50%;
+  }
+  .container > .row > .col-m-11 {
+    float: left;
+    width: 55%;
+  }
+  .container-fluid > .row > .col-m-11 {
+    float: left;
+    width: 55%;
+  }
+  .container > .row > .col-m-12 {
+    float: left;
+    width: 60%;
+  }
+  .container-fluid > .row > .col-m-12 {
+    float: left;
+    width: 60%;
+  }
+  .container > .row > .col-m-13 {
+    float: left;
+    width: 65%;
+  }
+  .container-fluid > .row > .col-m-13 {
+    float: left;
+    width: 65%;
+  }
+  .container > .row > .col-m-14 {
+    float: left;
+    width: 70%;
+  }
+  .container-fluid > .row > .col-m-14 {
+    float: left;
+    width: 70%;
+  }
+  .container > .row > .col-m-15 {
+    float: left;
+    width: 75%;
+  }
+  .container-fluid > .row > .col-m-15 {
+    float: left;
+    width: 75%;
+  }
+  .container > .row > .col-m-16 {
+    float: left;
+    width: 80%;
+  }
+  .container-fluid > .row > .col-m-16 {
+    float: left;
+    width: 80%;
+  }
+  .container > .row > .col-m-17 {
+    float: left;
+    width: 85%;
+  }
+  .container-fluid > .row > .col-m-17 {
+    float: left;
+    width: 85%;
+  }
+  .container > .row > .col-m-18 {
+    float: left;
+    width: 90%;
+  }
+  .container-fluid > .row > .col-m-18 {
+    float: left;
+    width: 90%;
+  }
+  .container > .row > .col-m-19 {
+    float: left;
+    width: 95%;
+  }
+  .container-fluid > .row > .col-m-19 {
+    float: left;
+    width: 95%;
+  }
+  .container > .row > .col-m-20 {
+    float: left;
+    width: 100%;
+  }
+  .container-fluid > .row > .col-m-20 {
+    float: left;
+    width: 100%;
+  }
+  .col-s-hide {
+    display: block;
+  }
+  .col-l-hide {
+    display: block;
+  }
+  .col-m-hide {
+    display: none;
+  }
+}
+/*大屏*/
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
+  .container > .row > .col-l-1 {
+    float: left;
+    width: 5%;
+  }
+  .container-fluid > .row > .col-l-1 {
+    float: left;
+    width: 5%;
+  }
+  .container > .row > .col-l-2 {
+    float: left;
+    width: 10%;
+  }
+  .container-fluid > .row > .col-l-2 {
+    float: left;
+    width: 10%;
+  }
+  .container > .row > .col-l-3 {
+    float: left;
+    width: 15%;
+  }
+  .container-fluid > .row > .col-l-3 {
+    float: left;
+    width: 15%;
+  }
+  .container > .row > .col-l-4 {
+    float: left;
+    width: 20%;
+  }
+  .container-fluid > .row > .col-l-4 {
+    float: left;
+    width: 20%;
+  }
+  .container > .row > .col-l-5 {
+    float: left;
+    width: 25%;
+  }
+  .container-fluid > .row > .col-l-5 {
+    float: left;
+    width: 25%;
+  }
+  .container > .row > .col-l-6 {
+    float: left;
+    width: 30%;
+  }
+  .container-fluid > .row > .col-l-6 {
+    float: left;
+    width: 30%;
+  }
+  .container > .row > .col-l-7 {
+    float: left;
+    width: 35%;
+  }
+  .container-fluid > .row > .col-l-7 {
+    float: left;
+    width: 35%;
+  }
+  .container > .row > .col-l-8 {
+    float: left;
+    width: 40%;
+  }
+  .container-fluid > .row > .col-l-8 {
+    float: left;
+    width: 40%;
+  }
+  .container > .row > .col-l-9 {
+    float: left;
+    width: 45%;
+  }
+  .container-fluid > .row > .col-l-9 {
+    float: left;
+    width: 45%;
+  }
+  .container > .row > .col-l-10 {
+    float: left;
+    width: 50%;
+  }
+  .container-fluid > .row > .col-l-10 {
+    float: left;
+    width: 50%;
+  }
+  .container > .row > .col-l-11 {
+    float: left;
+    width: 55%;
+  }
+  .container-fluid > .row > .col-l-11 {
+    float: left;
+    width: 55%;
+  }
+  .container > .row > .col-l-12 {
+    float: left;
+    width: 60%;
+  }
+  .container-fluid > .row > .col-l-12 {
+    float: left;
+    width: 60%;
+  }
+  .container > .row > .col-l-13 {
+    float: left;
+    width: 65%;
+  }
+  .container-fluid > .row > .col-l-13 {
+    float: left;
+    width: 65%;
+  }
+  .container > .row > .col-l-14 {
+    float: left;
+    width: 70%;
+  }
+  .container-fluid > .row > .col-l-14 {
+    float: left;
+    width: 70%;
+  }
+  .container > .row > .col-l-15 {
+    float: left;
+    width: 75%;
+  }
+  .container-fluid > .row > .col-l-15 {
+    float: left;
+    width: 75%;
+  }
+  .container > .row > .col-l-16 {
+    float: left;
+    width: 80%;
+  }
+  .container-fluid > .row > .col-l-16 {
+    float: left;
+    width: 80%;
+  }
+  .container > .row > .col-l-17 {
+    float: left;
+    width: 85%;
+  }
+  .container-fluid > .row > .col-l-17 {
+    float: left;
+    width: 85%;
+  }
+  .container > .row > .col-l-18 {
+    float: left;
+    width: 90%;
+  }
+  .container-fluid > .row > .col-l-18 {
+    float: left;
+    width: 90%;
+  }
+  .container > .row > .col-l-19 {
+    float: left;
+    width: 95%;
+  }
+  .container-fluid > .row > .col-l-19 {
+    float: left;
+    width: 95%;
+  }
+  .container > .row > .col-l-20 {
+    float: left;
+    width: 100%;
+  }
+  .container-fluid > .row > .col-l-20 {
+    float: left;
+    width: 100%;
+  }
+  .col-s-hide {
+    display: block;
+  }
+  .col-m-hide {
+    display: block;
+  }
+  .col-l-hide {
+    display: none;
+  }
+}
+/*清除浮动*/
+body,
+div,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.content {
+  width: 100%;
+}
+@media screen and (min-width: 400px) {
+  .col-c-s {
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url("../image/airpods_small.jpg") no-repeat center;
+  }
+  .col-c-s1 {
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url("../image/iphone_upgrade_small.jpg") no-repeat center;
+  }
+  .col-c-s2 {
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url("../image/nike_watch_small.jpg") no-repeat center;
+  }
+  .col-c-s3 {
+    width: 100%;
+    float: left;
+    height: 200px;
+    background: url("../image/accessibility_small.jpg") no-repeat center;
+  }
+}
+@media screen and (min-width: 600px) {
+  .col-c-m {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background: url("../image/airpods_medium.jpg") no-repeat center;
+  }
+  .col-c-m1 {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background: url("../image/iphone_upgrade_medium.jpg") no-repeat center;
+  }
+  .col-c-m2 {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background: url("../image/nike_watch_medium.jpg") no-repeat center;
+  }
+  .col-c-m3 {
+    width: 50%;
+    float: left;
+    height: 200px;
+    background: url("../image/accessibility_medium.jpg") no-repeat center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-c-l {
+    width: 25%;
+    float: left;
+    height: 200px;
+    background: url("../image/airpods_large.jpg") no-repeat center;
+  }
+  .col-c-l1 {
+    width: 25%;
+    float: left;
+    height: 200px;
+    background: url("../image/iphone_upgrade_large.jpg") no-repeat center;
+  }
+  .col-c-l2 {
+    width: 25%;
+    float: left;
+    height: 200px;
+    background: url("../image/nike_watch_large.jpg") no-repeat center;
+  }
+  .col-c-l3 {
+    width: 25%;
+    float: left;
+    height: 200px;
+    background: url("../image/accessibility_large.jpg") no-repeat center;
+  }
+}
+.adv-wrapple {
+  width: 100%;
+  height: 40px;
+  font-family: "HanHei SC", PingHei, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.adv-wrapple .adv-wrapple-text {
+  font-size: 12px;
+  color: #a8a8aa;
+  display: block;
+  line-height: 40px;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-align: right;
+  max-width: 976px;
+  margin: 0 auto;
+}
+.adv-wrapple {
+  width: 100%;
+  height: 40px;
+  font-family: "HanHei SC", PingHei, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #444444;
+}
+.adv-wrapple .adv-wrapple-text {
+  font-size: 12px;
+  color: #a8a8aa;
+  display: block;
+  line-height: 40px;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-align: right;
+  max-width: 976px;
+  margin: 0 auto;
+}
+.banner {
+  width: 100%;
+  height: 330px;
+  position: relative;
+}
+.thumb {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.thumb > li {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media screen and (min-width: 800px) {
+  .thumb-m {
+    background: url("../image/event_small.jpg") no-repeat center;
+  }
+  .thumb-m1 {
+    background: url("../image/macbookpro_small.jpg") no-repeat center;
+  }
+  .thumb-m2 {
+    background: url("../image/iphone_large.jpg") no-repeat center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner {
+    height: 516px;
+  }
+  .thumb-l {
+    background: url("../image/event_medium.jpg") no-repeat center;
+  }
+  .thumb-l1 {
+    background: url("../image/macbookpro_medium.jpg") no-repeat center;
+  }
+  .thumb-l2 {
+    background: url("../image/iphone_large.jpg") no-repeat center;
+  }
+}
+.nav {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgba(31, 31, 31, 0.6);
+}
+.banner-nav {
+  display: block;
+  max-width: 976px;
+  height: 40px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.banner-nav li {
+  width: 11.111111%;
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px;
+}
+@media screen and (max-width: 800px) {
+  .banner-nav .nav-m {
+    display: none;
+    padding: 0 20px;
+  }
+  .banner-nav {
+    display: none;
+  }
+  .nav .hide {
+    display: block;
+  }
+}
+.hide {
+  display: none;
+  width: 100%;
+  height: 40px;
+}
+.hide > li {
+  float: left;
+  width: 33.33333%;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+}
